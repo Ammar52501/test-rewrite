@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
       beforeFiles: [
         {
           source: `/images/:path*`,
-          destination: `http://localhost:3000/doc/images/:path*`,
+          destination: `${process.env.NEXT_PUBLIC_APP_DOMAIN}/doc/images/:path*`,
           basePath: false,
         },
       ],
