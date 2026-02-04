@@ -10,13 +10,13 @@ const nextConfig: NextConfig = {
       beforeFiles: [
         {
           source: `/images/:path*`,
-          destination: `http://localhost:3000/cradle/images/:path*`,
+          destination: `http://localhost:3000/doc/images/:path*`,
           basePath: false,
         },
       ],
     };
   },
-  basePath: "/cradle",
+  basePath: "/doc",
 };
 
 export default nextConfig;
