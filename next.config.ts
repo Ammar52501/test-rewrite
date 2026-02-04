@@ -19,6 +19,7 @@ const nextConfig: NextConfig = {
   i18n: {
     defaultLocale: "ar",
     locales: ["ar", "en"],
+    localeDetection: false,
   },
   basePath: "/doc",
 };
