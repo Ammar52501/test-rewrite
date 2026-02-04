@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
           source: `/images/:path*`,
           destination: `${process.env.NEXT_PUBLIC_APP_DOMAIN}/doc/images/:path*`,
           basePath: false,
+          locale: false,
         },
       ],
     };
